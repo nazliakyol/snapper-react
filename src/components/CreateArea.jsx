@@ -35,7 +35,7 @@ function CreateArea(props) {
       { isExpanded ?  <input 
           onChange={handleChange}
           name="title"
-          placeholder="Title"
+          placeholder="Heyo: "
           value={note.title}
         /> : null}
        
@@ -43,7 +43,7 @@ function CreateArea(props) {
           onChange={handleChange}
           onClick={getExpanded}
           name="content"
-          placeholder="Take a note..."
+          placeholder="Imma snap on..."
           value={note.content}
           rows={ isExpanded ? "3" : "1"}
         />
